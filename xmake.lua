@@ -87,7 +87,7 @@ target("run-test262")
     set_kind("binary")
 
     -- add files
-    add_files("run-test262.c")
+    add_files("./quickjs/run-test262.c")
 
     -- add deps
     add_deps("quickjs")
@@ -99,7 +99,7 @@ target("unicode_gen")
     set_kind("binary")
 
     -- add files
-    add_files("unicode_gen.c")
+    add_files("./quickjs/unicode_gen.c")
 
     -- add deps
     add_deps("quickjs")

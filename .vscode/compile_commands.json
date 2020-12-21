@@ -1,6 +1,16 @@
 [
 {
   "directory": "E:\\xm\\quickjs-xmake",
+  "arguments": ["C:\\Users\\Administrator\\scoop\\apps\\winlibs-mingw-llvm\\10.2.0-11.0.0-9.0.0-r5\\bin\\x86_64-w64-mingw32-gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-DCONFIG_VERSION=\"2020-11-08\"", "-o", "build\\.objs\\reql\\mingw\\x86_64\\release\\repl.c.obj", "repl.c"],
+  "file": "repl.c"
+},
+{
+  "directory": "E:\\xm\\quickjs-xmake",
+  "arguments": ["C:\\Users\\Administrator\\scoop\\apps\\winlibs-mingw-llvm\\10.2.0-11.0.0-9.0.0-r5\\bin\\x86_64-w64-mingw32-gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-DCONFIG_VERSION=\"2020-11-08\"", "-o", "build\\.objs\\libregexp\\mingw\\x86_64\\release\\quickjs\\libregexp.c.obj", "quickjs\\libregexp.c"],
+  "file": "quickjs\\libregexp.c"
+},
+{
+  "directory": "E:\\xm\\quickjs-xmake",
   "arguments": ["C:\\Users\\Administrator\\scoop\\apps\\winlibs-mingw-llvm\\10.2.0-11.0.0-9.0.0-r5\\bin\\x86_64-w64-mingw32-gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-DCONFIG_VERSION=\"2020-11-08\"", "-o", "build\\.objs\\qjsc\\mingw\\x86_64\\release\\quickjs\\qjsc.c.obj", "quickjs\\qjsc.c"],
   "file": "quickjs\\qjsc.c"
 },
@@ -8,6 +18,16 @@
   "directory": "E:\\xm\\quickjs-xmake",
   "arguments": ["C:\\Users\\Administrator\\scoop\\apps\\winlibs-mingw-llvm\\10.2.0-11.0.0-9.0.0-r5\\bin\\x86_64-w64-mingw32-gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-DCONFIG_VERSION=\"2020-11-08\"", "-o", "build\\.objs\\qjs\\mingw\\x86_64\\release\\quickjs\\qjs.c.obj", "quickjs\\qjs.c"],
   "file": "quickjs\\qjs.c"
+},
+{
+  "directory": "E:\\xm\\quickjs-xmake",
+  "arguments": ["C:\\Users\\Administrator\\scoop\\apps\\winlibs-mingw-llvm\\10.2.0-11.0.0-9.0.0-r5\\bin\\x86_64-w64-mingw32-gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-DCONFIG_VERSION=\"2020-11-08\"", "-o", "build\\.objs\\unicode_gen\\mingw\\x86_64\\release\\quickjs\\unicode_gen.c.obj", "quickjs\\unicode_gen.c"],
+  "file": "quickjs\\unicode_gen.c"
+},
+{
+  "directory": "E:\\xm\\quickjs-xmake",
+  "arguments": ["C:\\Users\\Administrator\\scoop\\apps\\winlibs-mingw-llvm\\10.2.0-11.0.0-9.0.0-r5\\bin\\x86_64-w64-mingw32-gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-DCONFIG_VERSION=\"2020-11-08\"", "-o", "build\\.objs\\run-test262\\mingw\\x86_64\\release\\quickjs\\run-test262.c.obj", "quickjs\\run-test262.c"],
+  "file": "quickjs\\run-test262.c"
 },
 {
   "directory": "E:\\xm\\quickjs-xmake",
@@ -33,14 +53,4 @@
   "directory": "E:\\xm\\quickjs-xmake",
   "arguments": ["C:\\Users\\Administrator\\scoop\\apps\\winlibs-mingw-llvm\\10.2.0-11.0.0-9.0.0-r5\\bin\\x86_64-w64-mingw32-gcc", "-c", "-m64", "-O3", "-DCONFIG_VERSION=\"2020-11-08\"", "-o", "build\\.objs\\quickjs\\mingw\\x86_64\\release\\quickjs\\quickjs.c.obj", "quickjs\\quickjs.c"],
   "file": "quickjs\\quickjs.c"
-},
-{
-  "directory": "E:\\xm\\quickjs-xmake",
-  "arguments": ["C:\\Users\\Administrator\\scoop\\apps\\winlibs-mingw-llvm\\10.2.0-11.0.0-9.0.0-r5\\bin\\x86_64-w64-mingw32-gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-DCONFIG_VERSION=\"2020-11-08\"", "-o", "build\\.objs\\reql\\mingw\\x86_64\\release\\repl.c.obj", "repl.c"],
-  "file": "repl.c"
-},
-{
-  "directory": "E:\\xm\\quickjs-xmake",
-  "arguments": ["C:\\Users\\Administrator\\scoop\\apps\\winlibs-mingw-llvm\\10.2.0-11.0.0-9.0.0-r5\\bin\\x86_64-w64-mingw32-gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-DCONFIG_VERSION=\"2020-11-08\"", "-o", "build\\.objs\\libregexp\\mingw\\x86_64\\release\\quickjs\\libregexp.c.obj", "quickjs\\libregexp.c"],
-  "file": "quickjs\\libregexp.c"
 }]
